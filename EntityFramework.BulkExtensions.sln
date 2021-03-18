@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.BulkExtensions", "EntityFramework.BulkExtensions\EntityFramework.BulkExtensions.csproj", "{0EEFC012-A432-4F85-9745-316A011B9C9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.BulkExtensions", "EntityFrameworkCore.BulkExtensions\EntityFrameworkCore.BulkExtensions.csproj", "{C61BC16E-C135-42F3-A9C3-6256E54ADC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.BulkExtensions.NetStandard", "EntityFrameworkCore.BulkExtensions.NetStandard\EntityFrameworkCore.BulkExtensions.NetStandard.csproj", "{13D314C8-FFE3-4C8D-8139-2CFE43214083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.BulkExtensions.NetStandard", "EntityFrameworkCore.BulkExtensions.NetStandard\EntityFrameworkCore.BulkExtensions.NetStandard.csproj", "{13D314C8-FFE3-4C8D-8139-2CFE43214083}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BulkExtensions.Shared", "BulkExtensions.Shared\BulkExtensions.Shared.shproj", "{F6FDEB96-A3DF-4CCF-A0E0-AF0E8881E955}"
 EndProject
@@ -18,6 +18,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BulkExtensions.Shared\BulkExtensions.Shared.projitems*{0eefc012-a432-4f85-9745-316a011b9c9c}*SharedItemsImports = 4
+		BulkExtensions.Shared\BulkExtensions.Shared.projitems*{13d314c8-ffe3-4c8d-8139-2cfe43214083}*SharedItemsImports = 5
 		BulkExtensions.Shared\BulkExtensions.Shared.projitems*{c61bc16e-c135-42f3-a9c3-6256e54adc2a}*SharedItemsImports = 4
 		BulkExtensions.Shared\BulkExtensions.Shared.projitems*{f6fdeb96-a3df-4ccf-a0e0-af0e8881e955}*SharedItemsImports = 13
 	EndGlobalSection
@@ -49,5 +50,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F142C5F7-1DF2-4A6B-A09E-0DC150A3B5D2}
 	EndGlobalSection
 EndGlobal
